@@ -1,0 +1,10 @@
+{
+    "development": {
+        "apiUrl": "https://admin.techandsec.io",
+        "contentApiKey": "3745582f0086d0ef3eec339c06"
+    },
+    "production": {
+        "apiUrl": "https://admin.techandsec.io",
+        "contentApiKey": "3745582f0086d0ef3eec339c06"
+    }
+}
