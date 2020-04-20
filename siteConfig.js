@@ -7,10 +7,10 @@ module.exports = {
     postsPerPage: 3,
 
     // This allows an alternative site title for meta data for pages.
-    siteTitleMeta: `Gatsby Starter Ghost CMS`,
+    siteTitleMeta: `My learning and thoughts about technology and cyber security`,
 
     // This allows an site description for meta data for pages.
-    siteDescriptionMeta: `Turn your Ghost blog into a flaring fast static site with Gatsby`,
+    siteDescriptionMeta: `My learning and thoughts about technology and cyber security`,
 
     // Change to the width and height of your default share image
     shareImageWidth: 1000,
@@ -21,4 +21,4 @@ module.exports = {
     siteIcon: `favicon.png`,
     backgroundColor: `#e9e9e9`,
     themeColor: `#15171A`,
-}
+};
