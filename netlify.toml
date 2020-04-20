@@ -4,3 +4,10 @@
 
 [template]
   incoming-hooks = ["Ghost"]
+
+[[plugins]]
+package = "netlify-plugin-ghost-markdown"
+
+   [plugins.inputs]
+   ghostURL = "https://admin.techandsec.io"
+   ghostKey = "92cccb10421f9210d8659a4c7f"
