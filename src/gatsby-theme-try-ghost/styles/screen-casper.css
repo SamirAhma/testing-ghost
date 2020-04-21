@@ -391,6 +391,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     align-self: flex-start;
 }
 
+.nav-help {
+    display: none !important;
+}
+
 .nav {
     position: absolute;
     z-index: 1000;
