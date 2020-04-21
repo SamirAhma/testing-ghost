@@ -175,7 +175,7 @@ const Post = ({ data, location, pageContext }) => {
                                 </section>
 
                                 {/* <Comments id={post.id}/> */}
-                                <Disqus id={post.id} />
+                                <Disqus />
                             </article>
                         </div>
                     </Layout>
