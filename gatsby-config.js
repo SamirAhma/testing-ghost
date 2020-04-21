@@ -60,6 +60,19 @@ module.exports = {
                 overrideOS: false,
             },
         },
+        // {
+        //     resolve: "gatsby-plugin-ackee-tracker",
+        //     options: {
+        //         // Domatin ID found when adding a domain in the admin panel.
+        //         domainId: "YOUR_ACKEE_DOMAIN_ID",
+        //         // URL to Server eg: "https://analytics.test.com".
+        //         server: "https://analytics.test.com",
+        //         // Disabled analytic tracking when running localy
+        //         ignoreLocalhost: true,
+        //         // If enabled it will collect info on OS, BrowserInfo, Device  & ScreenSize
+        //         detailed: false,
+        //     },
+        // },
         {
             resolve: `gatsby-transformer-rehype`,
             options: {
