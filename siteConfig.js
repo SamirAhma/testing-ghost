@@ -1,6 +1,6 @@
 module.exports = {
     // Do not include a trailing slash!
-    siteUrl: `https://upbeat-shirley-c2dd17.netlify.app`,
+    siteUrl: `https://techandsec.netlify.app`,
 
     // Maximum number of post shown per page
     // With Infinite Scroll this is the chunk of posts fetched when scrolling down
