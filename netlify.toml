@@ -5,3 +5,21 @@
 [template]
   incoming-hooks = ["Ghost"]
 
+[[plugins]]
+package = "netlify-plugin-ghost-markdown"
+
+  [plugins.inputs]
+  ghostURL = "https://admin.techandsec.io"
+  ghostKey = "92cccb10421f9210d8659a4c7f"
+
+  # Optionally set a directory for images
+  assetsDir = "./assets/images/"
+
+  # Optionally set a directory for pages
+  pagesDir = "./"
+
+  # Optionally set a directory for posts
+  postsDir = "./_posts/"
+
+  # Optionally remove the date prefix from post filenames
+  postDatePrefix = true
