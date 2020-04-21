@@ -40,7 +40,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-disqus`,
             options: {
-              shortname: `mysiteNovela`
+              shortname: `techandsec-com`
             }
           },
         {
