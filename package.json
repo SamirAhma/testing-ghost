@@ -27,6 +27,7 @@
   "dependencies": {
     "gatsby": "^2.20.23",
     "gatsby-plugin-ackee-tracker": "^1.4.0",
+    "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-rehype-ghost-links": "^1.2.0",
     "gatsby-rehype-prismjs": "^0.0.12",
     "gatsby-theme-ghost-dark-mode": "^1.1.0",
