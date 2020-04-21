@@ -43,9 +43,10 @@ module.exports = {
         {
             resolve: `gatsby-plugin-disqus`,
             options: {
-                shortname: `mysiteNovela`,
+                shortname: `techandsec-com`,
             },
         },
+
         {
             resolve: `gatsby-theme-ghost-dark-mode`,
             options: {
