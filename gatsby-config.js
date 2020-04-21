@@ -54,7 +54,7 @@ module.exports = {
                 // Note that this setting has an effect only, if
                 //    1. The user has not changed the dark mode
                 //    2. Dark mode is not reported from OS
-                defaultModeDark: true,
+                defaultModeDark: false,
                 // If you want the defaultModeDark setting to take precedence
                 // over the mode reported from OS, set this to true (default: false)
                 overrideOS: false,
