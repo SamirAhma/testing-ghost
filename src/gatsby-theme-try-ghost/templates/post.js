@@ -88,11 +88,7 @@ const Post = ({ data, location, pageContext }) => {
                                 <div className="post-content load-external-scripts"
                                     dangerouslySetInnerHTML={{ __html: transformedHtml || post.html }}/>
     
-<div class="kg-card kg-code-card gatsby-highlight">                                               <pre>
-    <code class="language-javascript">
-        var app = express();
-    </code>
-</pre></div>
+
                           
                             </section>
                            
