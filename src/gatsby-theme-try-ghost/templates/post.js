@@ -47,7 +47,7 @@ const Post = ({ data, location, pageContext }) => {
     const transformedHtml = post.childHtmlRehype && post.childHtmlRehype.html;
     const toc =
         (post.childHtmlRehype && post.childHtmlRehype.tableOfContents) || [];
-    console.log(data.ghostPost.childHtmlRehype.html);
+    // console.log(data.ghostPost.childHtmlRehype.html);
     return (
         <>
             <MetaData data={data} location={location} type="article" />
