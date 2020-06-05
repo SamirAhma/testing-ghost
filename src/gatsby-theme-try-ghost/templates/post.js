@@ -13,7 +13,7 @@ import { Comments, TableOfContents, Subscribe } from 'gatsby-theme-try-ghost/src
 
 import { StickyNavContainer, OverlayContainer } from 'gatsby-theme-try-ghost/src/components/common/effects'
 import { MetaData } from 'gatsby-theme-try-ghost/src/components/common/meta'
-
+import { Disqus } from "gatsby-plugin-disqus";
 import { PostClass } from 'gatsby-theme-try-ghost/src/components/common/helpers'
 
 /**
@@ -107,7 +107,8 @@ const Post = ({ data, location, pageContext }) => {
 
                                 <Subscribe />
 
-                                <Comments id={post.id}/>
+                                {/* <Comments id={post.id}/> */}
+                                <Disqus />
 
                             </article>
                         </div>
