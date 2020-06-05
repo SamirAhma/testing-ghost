@@ -21,4 +21,6 @@ module.exports = {
     siteIcon: `favicon.png`,
     backgroundColor: `#e9e9e9`,
     themeColor: `#15171A`,
-};
+
+    gatsbyImages: true,
+}

@@ -1,5 +1,6 @@
-let siteConfig;
-let ghostConfig;
+let siteConfig
+let ghostConfig
+let routesConfig
 
 try {
     siteConfig = require(`./siteConfig`);
@@ -8,7 +9,13 @@ try {
 }
 
 try {
-    ghostConfig = require(`./.ghost`);
+    routesConfig = require(`./routesConfig`)
+} catch (e) {
+    routesConfig = null
+}
+
+try {
+    ghostConfig = require(`./.ghost`)
 } catch (e) {
     ghostConfig = {
         development: {
@@ -38,6 +45,7 @@ module.exports = {
             options: {
                 ghostConfig: ghostConfig,
                 siteConfig: siteConfig,
+                routes: routesConfig,
             },
         },
         {
@@ -73,6 +81,9 @@ module.exports = {
         //         detailed: false,
         //     },
         // },
+        {
+            resolve: `gatsby-theme-ghost-members`,
+        },
         {
             resolve: `gatsby-transformer-rehype`,
             options: {
